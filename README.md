@@ -5,13 +5,6 @@
 ## 目录结构
 
 ```
-fasttext-math-classifier/
-├── data/
-│   ├── openwebmath_sample.jsonl
-│   ├── fineweb_sample.jsonl
-│   ├── train.txt
-│   ├── valid.txt
-│   └── fineweb_5000.txt
 ├── scripts/
 │   ├── prepare_data.py
 │   ├── train.py
@@ -19,8 +12,6 @@ fasttext-math-classifier/
 │   └── predict.py
 ├── requirements.txt
 ├── README.md
-└── results/
-    └── fineweb_5000_labeled.txt
 ```
 
 ## 依赖安装
@@ -77,5 +68,6 @@ __label__other	概率	原始文本
 - [FastText 官方文档](https://fasttext.cc/docs/en/supervised-tutorial.html)
 - [openwebmath 数据集](https://huggingface.co/datasets/open-web-math/open-web-math)
 - [fineweb 数据集](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
+
 
 
