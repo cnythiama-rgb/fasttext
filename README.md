@@ -6,10 +6,12 @@
 
 ```
 ├── scripts/
-│   ├── prepare_data.py
-│   ├── train.py
+│   ├── download_data.py
 │   ├── evaluate.py
-│   └── predict.py
+│   ├── gen_fineweb_5000.py
+│   ├── predict.py
+│   ├── prepare_data.py
+│   └── train.py
 ├── requirements.txt
 ├── README.md
 ```
@@ -68,6 +70,7 @@ __label__other	概率	原始文本
 - [FastText 官方文档](https://fasttext.cc/docs/en/supervised-tutorial.html)
 - [openwebmath 数据集](https://huggingface.co/datasets/open-web-math/open-web-math)
 - [fineweb 数据集](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
+
 
 
 
